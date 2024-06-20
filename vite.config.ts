@@ -10,7 +10,7 @@ export default defineConfig({
         entry: "electron/main.ts",
         vite: {
           build: {
-            outDir: "dist-electron",
+            outDir: "dist/electron",
           },
         },
       },
@@ -18,7 +18,7 @@ export default defineConfig({
         entry: "electron/preload.ts",
         vite: {
           build: {
-            outDir: "dist-electron"
+            outDir: "dist/electron"
           }
         }
       }

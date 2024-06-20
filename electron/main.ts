@@ -1,7 +1,7 @@
 import { app, BrowserWindow, Menu } from  "electron";
 const path = require("path");
 const url = process.env.VITE_DEV_SERVER_URL;
-const indexHtml = path.join(__dirname, "../dist", "index.html");
+const indexHtml = path.join(__dirname, "../index.html");
 const createWindow = async () => {
   const win = new BrowserWindow({
     width: 1300,
